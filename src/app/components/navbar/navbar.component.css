@@ -1,0 +1,7 @@
+.list-menu div{
+    margin:20px
+}
+
+.list-menu {
+    display:flex;
+}

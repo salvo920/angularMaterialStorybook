@@ -41,6 +41,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   exports: [
@@ -87,11 +89,8 @@ import {MatTreeModule} from '@angular/material/tree';
     MatTreeModule,
     PortalModule,
     ScrollingModule,
+    CommonModule,
+    RouterModule
   ]
 })
 export class AngularMaterialModule {}
-
-
-/**  Copyright 2019 Google LLC. All Rights Reserved.
-    Use of this source code is governed by an MIT-style license that
-    can be found in the LICENSE file at http://angular.io/license */
